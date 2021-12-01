@@ -50,4 +50,28 @@ public class TicketManager {
         }
         return false;
     }
+//
+//    public Ticket[] searchByTransitLeastTime(String from, String to) {
+//        Ticket[] result = new Ticket[0];
+//        for (Ticket ticket : repo.findAll()) {
+//            if (iataDeparture(ticket, from)) {
+//                if (iataArrival(ticket, to)) {
+//                    Ticket[] tmp = new Ticket[result.length + 1];
+//                    System.arraycopy(result, 0, tmp, 0, result.length);
+//                    tmp[tmp.length - 1] = ticket;
+//                    result = tmp;
+//                    Arrays.sort(result);
+//                }
+//
+//            }
+//        }
+//        return result;
+//    }
+////    private boolean transitLeastTime(Ticket ticket, String search) {
+////        if (ticket.getTransitTime(int actual)) {
+////            return true;
 }
+
+
+
+
